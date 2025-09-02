@@ -35,3 +35,8 @@ body {
     display: grid;
     background-color: lightcoral;
 }
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
