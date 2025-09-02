@@ -15,13 +15,19 @@ body {
     grid-row: 1 / 2;
     display: grid;
     background-color: aquamarine;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
 }
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     display: grid;
-
+    grid-template-rows: 10% 1fr 1fr;
     background-color: yellow;
+}
+#side-title {
+    display: flex;
+    flex-direction: row;
 }
 .main-content {
     grid-column: 2 / 6;
