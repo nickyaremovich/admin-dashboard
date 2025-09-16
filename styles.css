@@ -21,10 +21,27 @@ body {
 .search {
     display: flex;
     flex-direction: row;
+    padding: 1rem;
+}
+.search input {
+    width: 100%;
+    min-width: 800px; /* Set a minimum width */
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #ccc;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.search input:hover {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
 }
 #search {
-    height: 24px;
-    width: 24px;
+    height: 30px;
+    width: 30px;
 }
 button {
     background-color: aqua;
