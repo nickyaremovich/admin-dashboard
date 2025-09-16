@@ -18,6 +18,14 @@ body {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
 }
+.search {
+    display: flex;
+    flex-direction: row;
+}
+#search {
+    height: 24px;
+    width: 24px;
+}
 button {
     background-color: aqua;
     color: white;
