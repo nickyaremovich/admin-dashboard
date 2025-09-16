@@ -188,12 +188,36 @@ li>p:hover {
 }
 .announce-and-trend {
     padding: 1rem 2rem;
-    background-color: white;
     border-radius: 15px;
 }
-#annoucement-header { 
-    grid-column: 1 / -1;
-    margin: 1em 0em 0em 1em;
+.announce,
+.trend { 
+    font-size: large;
+    margin-left: 1em;
+    margin-bottom: 11.5px;
+}
+.trend {
+    margin-top: 1em;
+}
+
+.announce-container {
+    background-color: #ffffff;
+    border-radius: 7px;
+    margin-top: 0.5em;
+    padding: 1em;
+}
+.announce-title {
+    font-size: large;
+}
+/* SVGs */
+h3#dash {
+    color: white;
+    font-size:xx-large;
+}
+.white-icon {
+    filter: invert(1);
+    height: 28px;
+    width: 28px;
 }
 .trending-account-avatar {
     height: 50px;
@@ -201,18 +225,3 @@ li>p:hover {
     border: none;
     border-radius: 50%;
 }
-
-
-
-/* SVGs */
-h3#dash {
-    color: white;
-    font-size:xx-large;
-}
-
-.white-icon {
-    filter: invert(1);
-    height: 28px;
-    width: 28px;
-}
-
