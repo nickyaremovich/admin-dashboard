@@ -45,6 +45,7 @@ button:hover {
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
+    margin-left: 1rem;
 }
 li {
     display: flex;
@@ -53,6 +54,7 @@ li {
     align-items: center;
     gap: 1rem;
     color: white;
+    margin-left: 1rem;
 }
 .main-content {
     grid-column: 2 / 6;
@@ -90,14 +92,19 @@ li {
 /* SVGs */
 h3#dash {
     color: white;
+    font-size:xx-large;
 }
+
 .white-icon {
     filter: invert(1);
     height: 28px;
     width: 28px;
 }
+li>p{
+    font-size: larger;
+}
 li>p:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-/* work on getting side nav to spec then move onto the other sections. just filling out all the content sections with dummy content and then styling */
+
