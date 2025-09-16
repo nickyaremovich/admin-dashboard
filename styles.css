@@ -125,6 +125,13 @@ li {
     color: white;
     margin-left: 1rem;
 }
+li>p{
+    font-size: larger;
+}
+li>p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 .primary-links ul,
 .secondary-links ul {
     display: flex;
@@ -136,7 +143,9 @@ li {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 10px;
     background-color: rgb(221, 221, 221);
+    padding: 1rem 2rem;
 }
 .projects {
     display: grid;
@@ -147,6 +156,11 @@ li {
 .project-header {
     grid-column: 1 / -1;
     margin: 1em 0em 0em 1em;
+    font-size: large;
+}
+.project-title {
+    font-size: 1.75rem;
+    padding: 0.5em
 }
 .project-card {
     display: grid;
@@ -157,12 +171,38 @@ li {
     overflow: hidden;
     min-height: 200px;
 }
-
+.action-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0.25rem;
+}
+.action-icon {
+    width: 33px;
+    height: 33px;
+}
 .color {
     width: 8px;
     background: rgb(76, 154, 255);
     grid-row: 1 / -1;
 }
+.announce-and-trend {
+    padding: 1rem 2rem;
+    background-color: white;
+    border-radius: 15px;
+}
+#annoucement-header { 
+    grid-column: 1 / -1;
+    margin: 1em 0em 0em 1em;
+}
+.trending-account-avatar {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+}
+
+
 
 /* SVGs */
 h3#dash {
@@ -174,12 +214,5 @@ h3#dash {
     filter: invert(1);
     height: 28px;
     width: 28px;
-}
-li>p{
-    font-size: larger;
-}
-li>p:hover {
-    text-decoration: underline;
-    cursor: pointer;
 }
 
